@@ -1,6 +1,6 @@
 import React, { useState } from 'react'
 import "./header.css";
-
+import LOGO from "../../assets/logo.png"
 const Header = () => {
     window.addEventListener("scroll",function (){
         const header = document.querySelector(".header")
@@ -13,7 +13,7 @@ const [activeNav, setActiveNav] = useState("#home")
   return (
     <header className='header'>
         <nav className='nav container'>
-            <a href="index.html" className="nav__logo">Subhath</a>
+            <a href="index.html" className="nav__logo"> <img src={LOGO} alt="" className="nav__logo-img" /> Subhath</a>
 
             <div className={Toggle ? "nav__menu show-menu" : "nav__menu"}>
                 <ul className="nav__list grid">
