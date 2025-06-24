@@ -1,0 +1,75 @@
+import React from "react";
+import { FaGithub, FaLinkedin } from "react-icons/fa";
+
+export default function Portfolio() {
+  return (
+    <main className="min-h-screen bg-gray-900 text-white font-sans">
+      {/* Hero Section */}
+      <section className="flex flex-col items-center justify-center text-center p-10">
+        <h1 className="text-4xl md:text-6xl font-bold mb-4">Subhath Chathuranga</h1>
+        <p className="text-xl text-gray-400">Full Stack Developer | Passionate about Clean Code & UX</p>
+      </section>
+
+      {/* About Me */}
+      <section className="p-8 md:p-16 bg-gray-800">
+        <h2 className="text-3xl font-semibold mb-4">About Me</h2>
+        <p className="text-gray-300">
+          I am a passionate software developer with hands-on experience in front-end and back-end development. I completed my industrial training at Fuchsius Pvt Ltd, where I worked on real-world projects involving UI/UX design, RESTful APIs, and database management. I enjoy turning complex problems into simple, beautiful, and intuitive solutions.
+        </p>
+      </section>
+
+      {/* Skills */}
+      <section className="p-8 md:p-16">
+        <h2 className="text-3xl font-semibold mb-4">Skills</h2>
+        <ul className="grid grid-cols-2 md:grid-cols-3 gap-4 text-gray-300">
+          <li>HTML</li>
+          <li>CSS</li>
+          <li>JavaScript</li>
+          <li>React.js</li>
+          <li>Vue.js</li>
+          <li>PHP</li>
+          <li>Node.js</li>
+          <li>Express.js</li>
+          <li>MySQL</li>
+          <li>MongoDB</li>
+          <li>UI/UX Design</li>
+          <li>Figma</li>
+        </ul>
+      </section>
+
+      {/* Projects */}
+      <section className="p-8 md:p-16 bg-gray-800">
+        <h2 className="text-3xl font-semibold mb-4">Projects</h2>
+        <div className="space-y-8">
+          <div>
+            <h3 className="text-2xl font-semibold">Master Data Management System</h3>
+            <p className="text-gray-300">A PHP-based system for managing brand, category, and item records with authentication and CRUD operations.</p>
+            <p className="text-sm text-gray-400">Tech Used: PHP, MySQL, Bootstrap</p>
+          </div>
+          <div>
+            <h3 className="text-2xl font-semibold">Food Delivery App</h3>
+            <p className="text-gray-300">A mobile app including user authentication, order tracking, and personalized experience.</p>
+            <p className="text-sm text-gray-400">Tech Used: React Native, Firebase</p>
+          </div>
+        </div>
+      </section>
+
+      {/* Contact */}
+      <section className="p-8 md:p-16 text-center">
+        <h2 className="text-3xl font-semibold mb-4">Contact</h2>
+        <p className="text-gray-300 mb-4">Feel free to reach out to me via email or connect on LinkedIn!</p>
+        <div className="flex justify-center space-x-6 text-2xl">
+          <a href="mailto:youremail@example.com" className="hover:text-blue-400">youremail@example.com</a>
+          <a href="https://github.com/yourgithub" target="_blank" rel="noopener noreferrer">
+            <FaGithub className="hover:text-gray-400" />
+          </a>
+          <a href="https://linkedin.com/in/yourlinkedin" target="_blank" rel="noopener noreferrer">
+            <FaLinkedin className="hover:text-blue-400" />
+          </a>
+        </div>
+      </section>
+
+      <footer className="text-center text-gray-500 text-sm py-6">© {new Date().getFullYear()} Subhath Chathuranga</footer>
+    </main>
+  );
+}
