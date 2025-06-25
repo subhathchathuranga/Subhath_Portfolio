@@ -1,16 +1,17 @@
 import Work1 from "../../assets/work1.jpg"
-import Work2 from "../../assets/work2.jpg"
 import Work3 from "../../assets/work3.jpg"
 import Work4 from "../../assets/work4.jpg"
-import Work5 from "../../assets/work5.jpg"
 import Work6 from "../../assets/foodie.png"
 import Work7 from "../../assets/SportClubApp.png"
 import Work8 from "../../assets/travel.png"
+import Work9 from "../../assets/savory.png"
+import Work10 from "../../assets/heartbeat.png"
+
 
 export const projectsData = [
   {
     id: 1,
-    image: Work1,
+    image: Work9,
     title: "Savory Stays | Web App | 2025",
     category: "web",
     link: "https://github.com/subhathchathuranga/Savory-Stays",
@@ -31,7 +32,7 @@ export const projectsData = [
   },
   {
     id: 4,
-    image: Work4,
+    image: Work10,
     title: "Heartbeat Shop | Web App | 2024",
     category: "web",
     link: "#",
