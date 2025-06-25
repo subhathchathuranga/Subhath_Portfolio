@@ -1,0 +1,30 @@
+{
+  "files": {
+    "main.css": "/Subhath_Portfolio/static/css/main.adb0170e.css",
+    "main.js": "/Subhath_Portfolio/static/js/main.1509c117.js",
+    "static/js/453.ad7768ec.chunk.js": "/Subhath_Portfolio/static/js/453.ad7768ec.chunk.js",
+    "static/media/travel.png": "/Subhath_Portfolio/static/media/travel.0069bccdfad0a8399c83.png",
+    "static/media/savory.png": "/Subhath_Portfolio/static/media/savory.37506a4062729aeda630.png",
+    "static/media/profile.jpg": "/Subhath_Portfolio/static/media/profile.f56c92159c0e211fcfc8.jpg",
+    "static/media/SportClubApp.png": "/Subhath_Portfolio/static/media/SportClubApp.ff8cee13bf6fc89ad896.png",
+    "static/media/Cv.pdf": "/Subhath_Portfolio/static/media/Cv.5a8acaad109cf001df48.pdf",
+    "static/media/heartbeat.png": "/Subhath_Portfolio/static/media/heartbeat.5adea934cf303f4fba52.png",
+    "static/media/about.jpg": "/Subhath_Portfolio/static/media/about.ceea3c60794f939fe2d7.jpg",
+    "static/media/logo.png": "/Subhath_Portfolio/static/media/logo.eea2da9c019c307ed952.png",
+    "static/media/foodie.png": "/Subhath_Portfolio/static/media/foodie.b7e26a91e251ad3eae05.png",
+    "static/media/testimonial3.png": "/Subhath_Portfolio/static/media/testimonial3.2e18bfe27c6d2e2e9fdc.png",
+    "static/media/testimonial2.png": "/Subhath_Portfolio/static/media/testimonial2.39a53f7f092f07f5bceb.png",
+    "static/media/work4.jpg": "/Subhath_Portfolio/static/media/work4.aee985961b648f4df1f2.jpg",
+    "static/media/work1.jpg": "/Subhath_Portfolio/static/media/work1.321b4ae3bf404acdfdc6.jpg",
+    "static/media/work3.jpg": "/Subhath_Portfolio/static/media/work3.135e9065694bc13dc31d.jpg",
+    "static/media/testimonial1.png": "/Subhath_Portfolio/static/media/testimonial1.89079c1d25f2c94ceb89.png",
+    "index.html": "/Subhath_Portfolio/index.html",
+    "main.adb0170e.css.map": "/Subhath_Portfolio/static/css/main.adb0170e.css.map",
+    "main.1509c117.js.map": "/Subhath_Portfolio/static/js/main.1509c117.js.map",
+    "453.ad7768ec.chunk.js.map": "/Subhath_Portfolio/static/js/453.ad7768ec.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.adb0170e.css",
+    "static/js/main.1509c117.js"
+  ]
+}
